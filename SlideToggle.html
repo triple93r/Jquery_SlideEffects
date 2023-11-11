@@ -7,27 +7,27 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script> 
         $(document).ready(function(){
-          $("#flip").click(function(){
-            $("#panel").slideToggle("slow");
+          $("#div1").click(function(){
+            $("#panel1").slideToggle("slow");
           });
         });
         </script>
         <style> 
-        #panel, #flip {
+        #panel1, #div1 {
           padding: 5px;
           text-align: center;
           background-color: #e5eecc;
           border: solid 1px #c3c3c3;
         }
         
-        #panel {
+        #panel1 {
           padding: 50px;
           display: none;
         }
         </style>
 </head>
 <body>
-<div id="flip">Click to slide the panel down or up</div>
-<div id="panel">Hello world!</div>
+<div id="div1">Click to slide the panel down or up</div>
+<div id="panel1">Hello world!</div>
 </body>
 </html>
